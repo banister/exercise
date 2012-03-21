@@ -14,6 +14,7 @@
 		5264366915141A4C0081F4AD /* RMDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 5264366815141A4C0081F4AD /* RMDocument.m */; };
 		5264366C15141A4D0081F4AD /* RMDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5264366A15141A4D0081F4AD /* RMDocument.xib */; };
 		5264366F15141A4D0081F4AD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5264366D15141A4D0081F4AD /* MainMenu.xib */; };
+		5264367715141C4A0081F4AD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5264367615141C4A0081F4AD /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		5264365815141A4C0081F4AD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5264365915141A4C0081F4AD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5264365A15141A4C0081F4AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5264365D15141A4C0081F4AD /* RaiseMan-Info.plist */ = {isa = PBXFileReference; path = "RaiseMan-Info.plist"; sourceTree = "<group>"; };
+		5264365D15141A4C0081F4AD /* RaiseMan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RaiseMan-Info.plist"; sourceTree = "<group>"; };
 		5264365F15141A4C0081F4AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5264366115141A4C0081F4AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5264366315141A4C0081F4AD /* RaiseMan-Prefix.pch */ = {isa = PBXFileReference; path = "RaiseMan-Prefix.pch"; sourceTree = "<group>"; };
+		5264366315141A4C0081F4AD /* RaiseMan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RaiseMan-Prefix.pch"; sourceTree = "<group>"; };
 		5264366515141A4C0081F4AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		5264366715141A4C0081F4AD /* RMDocument.h */ = {isa = PBXFileReference; path = RMDocument.h; sourceTree = "<group>"; };
+		5264366715141A4C0081F4AD /* RMDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMDocument.h; sourceTree = "<group>"; };
 		5264366815141A4C0081F4AD /* RMDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RMDocument.m; sourceTree = "<group>"; };
 		5264366B15141A4D0081F4AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RMDocument.xib; sourceTree = "<group>"; };
 		5264366E15141A4D0081F4AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5264367515141C4A0081F4AD /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		5264367615141C4A0081F4AD /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +51,8 @@
 		5264364615141A4B0081F4AD = {
 			isa = PBXGroup;
 			children = (
+				5264367515141C4A0081F4AD /* Person.h */,
+				5264367615141C4A0081F4AD /* Person.m */,
 				5264365B15141A4C0081F4AD /* RaiseMan */,
 				5264365415141A4C0081F4AD /* Frameworks */,
 				5264365215141A4C0081F4AD /* Products */,
@@ -172,6 +177,7 @@
 			files = (
 				5264366215141A4C0081F4AD /* main.m in Sources */,
 				5264366915141A4C0081F4AD /* RMDocument.m in Sources */,
+				5264367715141C4A0081F4AD /* Person.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
