@@ -11,6 +11,7 @@
 
 @interface RMDocument : NSDocument {
     NSMutableArray *employees;
+    NSTableView *tableView;
 }
 
 - (void) setEmployees:(NSMutableArray *)a;
