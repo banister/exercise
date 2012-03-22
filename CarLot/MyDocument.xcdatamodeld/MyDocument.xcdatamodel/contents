@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="untitled.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="562" systemVersion="11D50b" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Car">
+        <attribute name="condition" optional="YES" attributeType="Integer 16" defaultValueString="0"/>
+        <attribute name="datePurchased" optional="YES" attributeType="Date"/>
+        <attribute name="makeModel" optional="YES" attributeType="String"/>
+        <attribute name="onSpecial" optional="YES" attributeType="Boolean"/>
+        <attribute name="photo" optional="YES" attributeType="Transformable"/>
+        <attribute name="price" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+    </entity>
+    <elements>
+        <element name="Car" positionX="160" positionY="192" width="128" height="135"/>
+    </elements>
 </model>
