@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52ACCF85151AB82400AA8F16 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52ACCF84151AB82400AA8F16 /* Cocoa.framework */; };
+		52ACCF8F151AB82400AA8F16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52ACCF8D151AB82400AA8F16 /* InfoPlist.strings */; };
+		52ACCF91151AB82400AA8F16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ACCF90151AB82400AA8F16 /* main.m */; };
+		52ACCF95151AB82400AA8F16 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 52ACCF93151AB82400AA8F16 /* Credits.rtf */; };
+		52ACCF98151AB82400AA8F16 /* MyDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ACCF97151AB82400AA8F16 /* MyDocument.m */; };
+		52ACCF9B151AB82400AA8F16 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52ACCF99151AB82400AA8F16 /* MyDocument.xib */; };
+		52ACCF9E151AB82400AA8F16 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52ACCF9C151AB82400AA8F16 /* MainMenu.xib */; };
+		52ACCFA1151AB82400AA8F16 /* MyDocument.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52ACCF9F151AB82400AA8F16 /* MyDocument.xcdatamodeld */; };
+		52ACCFA9151AB82400AA8F16 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52ACCFA8151AB82400AA8F16 /* SenTestingKit.framework */; };
+		52ACCFAA151AB82400AA8F16 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52ACCF84151AB82400AA8F16 /* Cocoa.framework */; };
+		52ACCFB2151AB82400AA8F16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52ACCFB0151AB82400AA8F16 /* InfoPlist.strings */; };
+		52ACCFB4151AB82400AA8F16 /* CarLotTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 52ACCFB3151AB82400AA8F16 /* CarLotTests.h */; };
+		52ACCFB6151AB82400AA8F16 /* CarLotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52ACCFB5151AB82400AA8F16 /* CarLotTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52ACCFAB151AB82400AA8F16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52ACCF77151AB82300AA8F16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52ACCF7F151AB82300AA8F16;
+			remoteInfo = CarLot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52ACCF80151AB82300AA8F16 /* CarLot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarLot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ACCF84151AB82400AA8F16 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		52ACCF87151AB82400AA8F16 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		52ACCF88151AB82400AA8F16 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		52ACCF89151AB82400AA8F16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52ACCF8C151AB82400AA8F16 /* CarLot-Info.plist */ = {isa = PBXFileReference; path = "CarLot-Info.plist"; sourceTree = "<group>"; };
+		52ACCF8E151AB82400AA8F16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52ACCF90151AB82400AA8F16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52ACCF92151AB82400AA8F16 /* CarLot-Prefix.pch */ = {isa = PBXFileReference; path = "CarLot-Prefix.pch"; sourceTree = "<group>"; };
+		52ACCF94151AB82400AA8F16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		52ACCF96151AB82400AA8F16 /* MyDocument.h */ = {isa = PBXFileReference; path = MyDocument.h; sourceTree = "<group>"; };
+		52ACCF97151AB82400AA8F16 /* MyDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDocument.m; sourceTree = "<group>"; };
+		52ACCF9A151AB82400AA8F16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		52ACCF9D151AB82400AA8F16 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		52ACCFA0151AB82400AA8F16 /* MyDocument.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDocument.xcdatamodel; sourceTree = "<group>"; };
+		52ACCFA7151AB82400AA8F16 /* CarLotTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarLotTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52ACCFA8151AB82400AA8F16 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		52ACCFAF151AB82400AA8F16 /* CarLotTests-Info.plist */ = {isa = PBXFileReference; path = "CarLotTests-Info.plist"; sourceTree = "<group>"; };
+		52ACCFB1151AB82400AA8F16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52ACCFB3151AB82400AA8F16 /* CarLotTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarLotTests.h; sourceTree = "<group>"; };
+		52ACCFB5151AB82400AA8F16 /* CarLotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarLotTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52ACCF7D151AB82300AA8F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ACCF85151AB82400AA8F16 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ACCFA3151AB82400AA8F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ACCFA9151AB82400AA8F16 /* SenTestingKit.framework in Frameworks */,
+				52ACCFAA151AB82400AA8F16 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52ACCF75151AB82300AA8F16 = {
+			isa = PBXGroup;
+			children = (
+				52ACCF8A151AB82400AA8F16 /* CarLot */,
+				52ACCFAD151AB82400AA8F16 /* CarLotTests */,
+				52ACCF83151AB82300AA8F16 /* Frameworks */,
+				52ACCF81151AB82300AA8F16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52ACCF81151AB82300AA8F16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52ACCF80151AB82300AA8F16 /* CarLot.app */,
+				52ACCFA7151AB82400AA8F16 /* CarLotTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52ACCF83151AB82300AA8F16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52ACCF84151AB82400AA8F16 /* Cocoa.framework */,
+				52ACCFA8151AB82400AA8F16 /* SenTestingKit.framework */,
+				52ACCF86151AB82400AA8F16 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52ACCF86151AB82400AA8F16 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52ACCF87151AB82400AA8F16 /* AppKit.framework */,
+				52ACCF88151AB82400AA8F16 /* CoreData.framework */,
+				52ACCF89151AB82400AA8F16 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		52ACCF8A151AB82400AA8F16 /* CarLot */ = {
+			isa = PBXGroup;
+			children = (
+				52ACCF96151AB82400AA8F16 /* MyDocument.h */,
+				52ACCF97151AB82400AA8F16 /* MyDocument.m */,
+				52ACCF99151AB82400AA8F16 /* MyDocument.xib */,
+				52ACCF9C151AB82400AA8F16 /* MainMenu.xib */,
+				52ACCF9F151AB82400AA8F16 /* MyDocument.xcdatamodeld */,
+				52ACCF8B151AB82400AA8F16 /* Supporting Files */,
+			);
+			path = CarLot;
+			sourceTree = "<group>";
+		};
+		52ACCF8B151AB82400AA8F16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52ACCF8C151AB82400AA8F16 /* CarLot-Info.plist */,
+				52ACCF8D151AB82400AA8F16 /* InfoPlist.strings */,
+				52ACCF90151AB82400AA8F16 /* main.m */,
+				52ACCF92151AB82400AA8F16 /* CarLot-Prefix.pch */,
+				52ACCF93151AB82400AA8F16 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52ACCFAD151AB82400AA8F16 /* CarLotTests */ = {
+			isa = PBXGroup;
+			children = (
+				52ACCFB3151AB82400AA8F16 /* CarLotTests.h */,
+				52ACCFB5151AB82400AA8F16 /* CarLotTests.m */,
+				52ACCFAE151AB82400AA8F16 /* Supporting Files */,
+			);
+			path = CarLotTests;
+			sourceTree = "<group>";
+		};
+		52ACCFAE151AB82400AA8F16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52ACCFAF151AB82400AA8F16 /* CarLotTests-Info.plist */,
+				52ACCFB0151AB82400AA8F16 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52ACCF7F151AB82300AA8F16 /* CarLot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52ACCFB9151AB82400AA8F16 /* Build configuration list for PBXNativeTarget "CarLot" */;
+			buildPhases = (
+				52ACCF7C151AB82300AA8F16 /* Sources */,
+				52ACCF7D151AB82300AA8F16 /* Frameworks */,
+				52ACCF7E151AB82300AA8F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarLot;
+			productName = CarLot;
+			productReference = 52ACCF80151AB82300AA8F16 /* CarLot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52ACCFA6151AB82400AA8F16 /* CarLotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52ACCFBC151AB82400AA8F16 /* Build configuration list for PBXNativeTarget "CarLotTests" */;
+			buildPhases = (
+				52ACCFA2151AB82400AA8F16 /* Sources */,
+				52ACCFA3151AB82400AA8F16 /* Frameworks */,
+				52ACCFA4151AB82400AA8F16 /* Resources */,
+				52ACCFA5151AB82400AA8F16 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52ACCFAC151AB82400AA8F16 /* PBXTargetDependency */,
+			);
+			name = CarLotTests;
+			productName = CarLotTests;
+			productReference = 52ACCFA7151AB82400AA8F16 /* CarLotTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52ACCF77151AB82300AA8F16 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 52ACCF7A151AB82300AA8F16 /* Build configuration list for PBXProject "CarLot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52ACCF75151AB82300AA8F16;
+			productRefGroup = 52ACCF81151AB82300AA8F16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52ACCF7F151AB82300AA8F16 /* CarLot */,
+				52ACCFA6151AB82400AA8F16 /* CarLotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52ACCF7E151AB82300AA8F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ACCF8F151AB82400AA8F16 /* InfoPlist.strings in Resources */,
+				52ACCF95151AB82400AA8F16 /* Credits.rtf in Resources */,
+				52ACCF9B151AB82400AA8F16 /* MyDocument.xib in Resources */,
+				52ACCF9E151AB82400AA8F16 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ACCFA4151AB82400AA8F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ACCFB2151AB82400AA8F16 /* InfoPlist.strings in Resources */,
+				52ACCFB4151AB82400AA8F16 /* CarLotTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52ACCFA5151AB82400AA8F16 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52ACCF7C151AB82300AA8F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ACCF91151AB82400AA8F16 /* main.m in Sources */,
+				52ACCF98151AB82400AA8F16 /* MyDocument.m in Sources */,
+				52ACCFA1151AB82400AA8F16 /* MyDocument.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52ACCFA2151AB82400AA8F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52ACCFB6151AB82400AA8F16 /* CarLotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52ACCFAC151AB82400AA8F16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52ACCF7F151AB82300AA8F16 /* CarLot */;
+			targetProxy = 52ACCFAB151AB82400AA8F16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52ACCF8D151AB82400AA8F16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52ACCF8E151AB82400AA8F16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52ACCF93151AB82400AA8F16 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52ACCF94151AB82400AA8F16 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		52ACCF99151AB82400AA8F16 /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52ACCF9A151AB82400AA8F16 /* en */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		52ACCF9C151AB82400AA8F16 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52ACCF9D151AB82400AA8F16 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		52ACCFB0151AB82400AA8F16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52ACCFB1151AB82400AA8F16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52ACCFB7151AB82400AA8F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		52ACCFB8151AB82400AA8F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		52ACCFBA151AB82400AA8F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarLot/CarLot-Prefix.pch";
+				INFOPLIST_FILE = "CarLot/CarLot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52ACCFBB151AB82400AA8F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarLot/CarLot-Prefix.pch";
+				INFOPLIST_FILE = "CarLot/CarLot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		52ACCFBD151AB82400AA8F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CarLot.app/Contents/MacOS/CarLot";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarLot/CarLot-Prefix.pch";
+				INFOPLIST_FILE = "CarLotTests/CarLotTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		52ACCFBE151AB82400AA8F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CarLot.app/Contents/MacOS/CarLot";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CarLot/CarLot-Prefix.pch";
+				INFOPLIST_FILE = "CarLotTests/CarLotTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52ACCF7A151AB82300AA8F16 /* Build configuration list for PBXProject "CarLot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ACCFB7151AB82400AA8F16 /* Debug */,
+				52ACCFB8151AB82400AA8F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52ACCFB9151AB82400AA8F16 /* Build configuration list for PBXNativeTarget "CarLot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ACCFBA151AB82400AA8F16 /* Debug */,
+				52ACCFBB151AB82400AA8F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52ACCFBC151AB82400AA8F16 /* Build configuration list for PBXNativeTarget "CarLotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52ACCFBD151AB82400AA8F16 /* Debug */,
+				52ACCFBE151AB82400AA8F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52ACCF9F151AB82400AA8F16 /* MyDocument.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52ACCFA0151AB82400AA8F16 /* MyDocument.xcdatamodel */,
+			);
+			currentVersion = 52ACCFA0151AB82400AA8F16 /* MyDocument.xcdatamodel */;
+			path = MyDocument.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52ACCF77151AB82300AA8F16 /* Project object */;
+}
